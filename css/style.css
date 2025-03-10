@@ -1,0 +1,28 @@
+p {
+color: red;   /* Cелектор за тегом */
+    
+}
+.text{
+    color: yellow;  /* Селектор за класом */
+    
+}
+
+#green-text{
+    color: green;  /* Селектор за id*/
+}
+
+[data-color="blue"]{
+    color: blue;   /* Селектор за атрибутом*/
+}
+div > p{
+    color: purple; /*Вкладений селектор*/
+}
+ol > li{
+    color: brown; /*Дочірний селектор*/
+
+}
+
+h1,h2,h3{
+    color: pink; /* Послідовність селекторів*/
+}
+
